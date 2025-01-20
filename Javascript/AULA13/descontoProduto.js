@@ -1,5 +1,5 @@
 preco = 150.00;
-corEtiqueta = "VERmelho".toLowerCase();
+corEtiqueta = "roxo".toLowerCase();
 
 switch (corEtiqueta) {
     case "verde":
@@ -18,5 +18,7 @@ switch (corEtiqueta) {
         console.log(`Seu desconto é de ${(preco * 0.4).toFixed(2)} R$`);
         break;
 
+    default:
+        console.log(`Cor de etiqueta inválida, o valor do seu produto é ${preco}`);
 
 }
