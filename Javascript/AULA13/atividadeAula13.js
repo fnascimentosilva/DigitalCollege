@@ -10,9 +10,9 @@ console.log(media.toFixed(2)); */
 
 /* calcule a área de um quadrado */
 
-let ladoQuadrado = prompt("Insira o tamanho do lado do quadrado: ")
+let ladoQuadrado = 2
 
 let areaQuadrado = Math.pow(ladoQuadrado,2)
 
-alert(Number(areaQuadrado))
+console.log(Number(areaQuadrado))
 
