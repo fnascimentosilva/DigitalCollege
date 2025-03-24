@@ -10,7 +10,7 @@ function Calculadora() {
             setResultado(''); // Limpa a tela
         } else if (valor === '=') {
             try {
-                setResultado(eval(resultado).toString()); // Calcula o resultado
+                setResultado(eval(resultado)); // Calcula o resultado
             } catch (error) {
                 setResultado('Erro');
             }
