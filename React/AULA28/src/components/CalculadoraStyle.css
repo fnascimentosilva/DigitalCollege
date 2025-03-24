@@ -1,0 +1,19 @@
+tr td button{
+    border: 1px solid black;
+    width: 50px;
+    background-color: darkgray;
+    
+
+}
+.telaResult{
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 9px;
+    background-color: grey;
+   
+}
+
+table{
+    padding: 20px;
+    background-color: black;
+}
